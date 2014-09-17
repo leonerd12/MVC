@@ -30,3 +30,5 @@ $lista = $comida->listarComida();
         </tbody>
     </table>
 </div>
+
+<center><a href="../Controller/formComida.php" class="btn btn-default" role="button">Incluir Comida</a></center>

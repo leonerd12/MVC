@@ -46,9 +46,8 @@ if (!$_SESSION['acessou']): ?>
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav">
-                        <li><a href="tabela_usuarios.php"><span class="glyphicon glyphicon-th"></span>Tabela de Usuários</a></li>
-                        <li><a href="tabela_func.php"><span class="glyphicon glyphicon-th"></span>Tabela de Funcionários</a></li>
-                        <li><a href="tabela_cursos.php"><span class="glyphicon glyphicon-th"></span>Tabela de Cursos</a></li>
+                        <li><a href="../View/listarUser.php"><span class="glyphicon glyphicon-th"></span>Tabela de Usuários</a></li>
+                        <li><a href="../View/listarComida.php"><span class="glyphicon glyphicon-th"></span>Tabela de Comidas</a></li>
                         <li><a href="../Model/logout.php"><span class="glyphicon glyphicon-remove"></span>Sair</a></li>
                     </ul>
                 </div>

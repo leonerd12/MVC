@@ -66,4 +66,9 @@ class Usuario {
         $stmt->execute();
     }
 
+    public function listarUsuario() {
+        $stmt = $this->conn->prepare("SELECT * FROM usuarios ORDER BY id_user");
+        $stmt->execute();
+        return $stmt;
+    }
 }

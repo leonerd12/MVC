@@ -1,5 +1,5 @@
 <?php
-include_once '../Visual/topo2.php';
+include_once '../Visual/topo.php';
 ?>
 
 <form class="form-group" role="form" method="post" action="cadastroComida.php">

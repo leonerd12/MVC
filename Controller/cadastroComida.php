@@ -9,14 +9,13 @@ $comida = new Comida();
 
 $comida->setNome($nome);
 $comida->setTipo($tipo);
-$insere = $comida->insert();
 
-if($insere){
-    echo '<script>
-        alert("Cadastro Realizado.");
-        location.href("formUsuario.php");
-    </script>';
+if ($comida->insert() == NULL) {
+    echo '<script>alert("Cadastro bem-sucedido.")</script>';
+    echo '<script>window.location.replace("../View/listarComida.php")</script>';
+}else{
+    echo '<script>alert("Cadastro mal-sucedido.")</script>';
+    echo '<script>window.location.replace("../Controller/formComida.php")</script>';
 }
-
 
 ?>
