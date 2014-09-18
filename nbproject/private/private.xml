@@ -3,9 +3,21 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
+            <file>file:/var/www/MVC/Visual/topo_session.php</file>
+            <file>file:/var/www/MVC/Model/Conexao.php</file>
+            <file>file:/var/www/MVC/Controller/login.php</file>
+            <file>file:/var/www/MVC/Controller/formComida.php</file>
+            <file>file:/var/www/MVC/Visual/topo2.php</file>
             <file>file:/var/www/MVC/Model/Login.php</file>
-            <file>file:/var/www/MVC/View/inicial.php</file>
+            <file>file:/var/www/MVC/Model/upComida.php</file>
+            <file>file:/var/www/MVC/Model/Comida.php</file>
+            <file>file:/var/www/MVC/Controller/formUsuario.php</file>
             <file>file:/var/www/MVC/Model/acesso.php</file>
+            <file>file:/var/www/MVC/View/listarComida.php</file>
+            <file>file:/var/www/MVC/Controller/updateComida.php</file>
+            <file>file:/var/www/MVC/Model/Usuario.php</file>
+            <file>file:/var/www/MVC/Visual/topo.php</file>
+            <file>file:/var/www/MVC/Visual/footer.php</file>
         </group>
     </open-files>
 </project-private>

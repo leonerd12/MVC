@@ -5,13 +5,12 @@ include_once '../Model/Usuario.php';
 $usuario = new Usuario();
 
 $lista = $usuario->listarUsuario();
-
 ?>
 
 <div class="panel panel-default">
     <!-- Default panel contents -->
     <div class="panel-heading text-center">Usuários</div>
-    <table class='table table-hover table-bordered table-condensed'>
+    <table class='table table-bordered table-condensed'>
         <thead>
             <tr>
                 <th>#</th>
@@ -30,3 +29,4 @@ $lista = $usuario->listarUsuario();
         </tbody>
     </table>
 </div>
+<?php include_once '../Visual/footer.php'; ?>

@@ -54,4 +54,11 @@ class Comida {
         $stmt->execute();
         return $stmt;
     }
+    
+    public function listarUmaComida($id) {
+        $stmt = $this->conn->prepare("SELECT * FROM comidas WHERE id_comida= :id");
+        $stmt->bindParam(":id", $id);
+        $stmt->execute();
+        return $stmt;
+    }
 }
