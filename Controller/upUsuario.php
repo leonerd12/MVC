@@ -24,7 +24,6 @@ if($senha){
 }
 
 $update = $usuario->update($id);
-var_dump($update);
 if($update){
     echo '<html>
             <head>
