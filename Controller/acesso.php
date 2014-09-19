@@ -1,6 +1,6 @@
 <?php
 
-require_once 'Login.php';
+require_once '../Model/Login.php';
 
 $login = new Login();
 

@@ -23,13 +23,13 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="../View/index.php"><span class="fa fa-home"></span>Home</a>
+                    <a class="navbar-brand" href="../View/index.php"><span class="fa fa-home"></span> Home</a>
                 </div>
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav">
-                        <li><a href="../Controller/formUsuario.php"><span class="fa fa-file"></span>Cadastro</a></li>
-                        <li><a href="../Controller/login.php"><span class="fa fa-user"></span>Acesso</a></li>
+                        <li><a href="../Controller/formUsuario.php"><span class="fa fa-file"></span> Cadastro</a></li>
+                        <li><a href="../Controller/login.php"><span class="fa fa-user"></span> Acesso</a></li>
                     </ul>
                 </div>
             </nav>

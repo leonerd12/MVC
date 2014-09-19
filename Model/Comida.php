@@ -33,7 +33,7 @@ class Comida {
         $stmt = $this->conn->prepare("INSERT INTO comidas(nome, tipo) VALUES (:nome, :tipo)");
         $stmt->bindParam(":nome", $this->nome);
         $stmt->bindParam(":tipo", $this->tipo);
-        $stmt->execute();
+        return $stmt->execute();
     }
     
     public function update($id) {
@@ -41,12 +41,12 @@ class Comida {
         $stmt->bindParam(":id", $id);
         $stmt->bindParam(":nome", $this->nome);
         $stmt->bindParam(":tipo", $this->tipo);
-        $stmt->execute();
+        return $stmt->execute();
     }
     
     public function delete($id) {
         $stmt = $this->conn->prepare("DELETE FROM comidas WHERE id_comida=$id");
-        $stmt->execute();
+        return $stmt->execute();
     }
 
     public function listarComida() {

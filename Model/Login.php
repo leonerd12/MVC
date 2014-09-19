@@ -22,7 +22,11 @@ class Login {
         $senha_banco = $dados->senha;
 
         if ($senha_login == $senha_banco) {
+            if ($dados->admin == TRUE){
+                $_SESSION["admin"] = true;
+            }
             $_SESSION['acessou'] = TRUE;
+            $_SESSION["id"] = $dados->id_user;
             header("location: ../View/inicial.php");
         } else {
             echo '<script language="JavaScript" type="text/javascript">alert("Dados incorretos.");</script>';
@@ -36,6 +40,9 @@ class Logout {
 
     public function sair() {
         unset($_SESSION['acessou']);
+        if ($_SESSION["admin"]){
+            unset($_SESSION["admin"]);
+        }
         header("location: ../View/index.php");
     }
 

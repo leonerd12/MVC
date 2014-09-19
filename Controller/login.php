@@ -2,7 +2,7 @@
 include_once '../Visual/topo2.php';
 ?>
 <div class="row">
-<form class="form-group" role="form" method="post" action="../Model/acesso.php">
+<form class="form-group" role="form" method="post" action="acesso.php">
     <div class="form-group col-md-6 col-md-offset-3">
         <label for="exampleInputEmail1"><i class="fa fa-user"></i> Login</label>
         <input type="text" class="form-control" name="login" placeholder="Login" required>
