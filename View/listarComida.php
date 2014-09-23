@@ -28,7 +28,7 @@ $lista = $comida->listarComida();
                     <td><?= $comida->nome; ?></td>
                     <td><?= $comida->tipo; ?></td>
                     <td align="center"><a href="../Controller/updateComida.php?id=<?= $comida->id_comida; ?>" class="btn btn-success" role="button"><span class="fa fa-edit"></span> Editar</a></td>
-                    <td align="center"><a href="../Model/auxDeleteComida.php?id=<?= $comida->id_comida; ?>" class="btn btn-danger" role="button"><span class="fa fa-remove"></span> Excluir</a></td>
+                    <td align="center"><a href="../Controller/auxDeleteComida.php?id=<?= $comida->id_comida; ?>" class="btn btn-danger" role="button"><span class="fa fa-remove"></span> Excluir</a></td>
                 </tr>
             <?php endwhile; ?>
         </tbody>

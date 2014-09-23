@@ -45,7 +45,8 @@ class Comida {
     }
     
     public function delete($id) {
-        $stmt = $this->conn->prepare("DELETE FROM comidas WHERE id_comida=$id");
+        $stmt = $this->conn->prepare("DELETE FROM comidas WHERE id_comida= :id");
+        $stmt->bindParam(":id", $id);
         return $stmt->execute();
     }
 

@@ -1,6 +1,8 @@
 <?php
 include_once '../Visual/topo.php';
+include_once '../Visual/topo_session.php';
 ?>
+
 <div class="container">
     <div class="row">
         <form class="form-group" role="form" method="post" action="cadastroComida.php">
